@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/RichardKnop/machinery/v2/brokers/errs"
-	"github.com/RichardKnop/machinery/v2/brokers/iface"
-	"github.com/RichardKnop/machinery/v2/common"
-	"github.com/RichardKnop/machinery/v2/config"
-	"github.com/RichardKnop/machinery/v2/log"
-	"github.com/RichardKnop/machinery/v2/tasks"
+	"github.com/msakauye/machinery/v2/brokers/errs"
+	"github.com/msakauye/machinery/v2/brokers/iface"
+	"github.com/msakauye/machinery/v2/common"
+	"github.com/msakauye/machinery/v2/config"
+	"github.com/msakauye/machinery/v2/log"
+	"github.com/msakauye/machinery/v2/tasks"
 	"github.com/pkg/errors"
 	amqp "github.com/rabbitmq/amqp091-go"
 )

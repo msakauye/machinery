@@ -8,15 +8,15 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/session"
 
-	"github.com/RichardKnop/machinery/v2/backends/iface"
-	"github.com/RichardKnop/machinery/v2/common"
-	"github.com/RichardKnop/machinery/v2/config"
-	"github.com/RichardKnop/machinery/v2/log"
-	"github.com/RichardKnop/machinery/v2/tasks"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbattribute"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface"
+	"github.com/msakauye/machinery/v2/backends/iface"
+	"github.com/msakauye/machinery/v2/common"
+	"github.com/msakauye/machinery/v2/config"
+	"github.com/msakauye/machinery/v2/log"
+	"github.com/msakauye/machinery/v2/tasks"
 )
 
 const (

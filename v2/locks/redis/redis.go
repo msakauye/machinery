@@ -9,7 +9,7 @@ import (
 
 	"github.com/redis/go-redis/v9"
 
-	"github.com/RichardKnop/machinery/v2/config"
+	"github.com/msakauye/machinery/v2/config"
 )
 
 var (
